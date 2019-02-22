@@ -1,0 +1,83 @@
+/* LAnding Page */
+
+body{
+    background: url('img/background.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 14px;
+    font-family: Courier New, arial, sans-serif;
+}
+#container{
+    width: 615px;
+    margin: 20px auto;
+    
+}
+header{
+   text-align: center; 
+}
+nav{
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+    
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color:#f8d511;
+}
+#maincontant h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 110px
+    
+}
+#maincontant h1 span{
+    display: inline-block;
+    font-weight: normal
+}
+#button{
+    display: block;
+    height: 79px;
+    width: 219px;
+    background: url('img/button.png');
+    margin: 0 auto;
+    text-align: center;
+    line-height: 70px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+#button:hover{
+    color: white;
+    text-shadow: 0 1px 5px #333;
+}
+
+#button:active{
+    position: relative;
+    top:1px;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 100px;
+    
+}
+
+
